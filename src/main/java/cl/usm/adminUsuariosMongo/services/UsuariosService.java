@@ -9,4 +9,5 @@ public interface UsuariosService {
     Usuario createUser(Usuario usuario);
     List<Usuario> getAll();
     Optional<Usuario> findByEmail(String email);
+    List<Usuario> filter(String query);
 }
